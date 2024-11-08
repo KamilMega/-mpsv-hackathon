@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables. */
+@import "@gov-design-system-ce/styles/lib/tokens.css";
+/* General settings. */
+@import "@gov-design-system-ce/styles/lib/styles.css";
+/* Styles for basic layout and containers. */
+@import "@gov-design-system-ce/styles/lib/layout.css";
+/* Styles of individual components. */
+@import "@gov-design-system-ce/styles/lib/components.css";
+/* Separated styles for individual design. */
+// @import "@gov-design-system-ce/styles/lib/components/*.css";
+
+/* The public path to your fonts. */
+$gov-font-path: "/assets/fonts";
+$version: "0.0.1";
+@import "@gov-design-system-ce/fonts/lib/roboto.css";
+
+:root {
+  --gov-container-width: 1238px;
+  --gov-layout-content-width: 872px;
+  --gov-container-padding-mobile: 16px;
+  --button-solid-primary: var(--color-primary-700) !important;
+  --color-neutral-white: #ffffff !important;
+  --background-primary: var(--color-primary-700) !important;
+}
+
+body {
+  background-color: var(--background-page-white);
+}

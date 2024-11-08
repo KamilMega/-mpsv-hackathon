@@ -1,0 +1,6 @@
+flask
+requests
+chromadb
+elasticsearch
+psycopg2-binary
+openai
